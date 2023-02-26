@@ -1,0 +1,109 @@
+
+#contenedor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 50px;
+	margin-top: 00px;
+}
+#principal {
+  width: 70%;
+  background: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+
+}
+#lateral{
+  width: 20%;
+  background: #617884;
+ } 
+#contacto{
+  text-align: center;
+  margin-left: -50px;
+ }
+ #foto{
+  margin-left: 50px;
+ }
+
+#logo{
+  align: left;
+  
+}
+
+body {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Candara;
+background: #617884;
+}
+h6 {
+  color: Gray;
+  font-size:15px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+h5 {
+  text-align: right;
+  font-size:30px;
+  font-family: Brush Script MT;
+  margin-bottom: 40px;
+  margin-top: 30px;
+
+}
+p {
+  text-align: left;
+  color: #617884;
+  font-size:60px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+hr {
+  margin-right:20px;
+}
+footer{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Candara;
+background: black;
+}
+nav {
+  
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden; 
+  background: black
+}
+
+nav ul li {
+  float: right;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+nav ul li:hover {
+  background: #617884;
+}
+.ir-arriba {
+	display:none;
+	padding:20px;
+	background:#024959;
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+}
